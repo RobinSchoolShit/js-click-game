@@ -19,30 +19,25 @@ html {
 }
 
 .container {
-  /* margin-top: 50px; */
   display: flex;
   justify-content: space-around;
-  /* align-items: center; */
-  /* height: 80%; */
 }
 
-.uitleg_container {
-    display: flex;
-    justify-content: center;
+#winner {
+  text-align: center;
+  font-size: 30px;
 }
 
-.p_uitleg_container {
-    display: block;
-    margin: auto;
-    width: 75%;
-    text-align: center;
-    /* display: flex; */
-    /* justify-content: center; */
+#timer {
+  text-align: center;
+  font-size: 50px;
 }
 
-/* Responsive */
-@media (max-width: 800px) {
-    .container {
-      flex-direction: column;
-    }
-  }
+.score-container {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80%;
+}
+
