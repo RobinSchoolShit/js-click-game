@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* height: 100vh; */
+  font-family: 'Source Code Pro', monospace;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.h1_container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 50%;
+}
+
+.container {
+  /* margin-top: 50px; */
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  /* height: 80%; */
+}
+
+.uitleg_container {
+    display: flex;
+    justify-content: center;
+}
+
+.p_uitleg_container {
+    display: block;
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+    .container {
+      flex-direction: column;
+    }
+  }
